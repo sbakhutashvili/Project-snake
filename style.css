@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CCC;
+    width: 400px;
+    height: 400px;
+}
+
+.snake {
+    width: 25px;
+    height: 25px;
+}
+
+.snakeBody {
+    background-color:blue;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.head {
+    background-color:blue;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.food {
+    background-color:red;
+    border: .25vmin solid black;
+}
